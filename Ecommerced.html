@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        *{
+            margin:0;
+            border: border-box;
+            font-family: arial;
+        }
+         .box{
+            border:2px solid white;
+            height:200px;
+            border-bottom: 2px solid black;
+            background-repeat: no-repeat;
+            
+            
+
+        }
+        .product{
+            display:flex;
+            flex-direction:column;
+            
+        }
+        .img1{
+            height:150px;
+            position:absolute;
+            left:200px;
+            
+            
+        }
+        .img2{  height:150px;
+            position:absolute;
+            left:200px;
+            top:250px;
+
+
+        }
+        .img3{height:150px;
+            position:absolute;
+            left:200px;
+            top:450px;
+
+
+        }
+        button{
+            border: 2px solid black;
+            border-radius: 25px;
+        }
+        #button2{
+            background-color: antiquewhite;
+            color: black;
+        }
+        #sentence{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            position:absolute;
+            top:40px;
+            right:500px;
+        }
+        #sentence2{ display:flex;
+            flex-direction: column;
+            align-items: center;
+            position:absolute;
+            top:300px;
+            right:500px;
+
+        }
+        #sentence3{display:flex;
+            flex-direction: column;
+            align-items: center;
+            position:absolute;
+            top:500px;
+            right:500px;
+
+
+        }
+      
+      
+        
+    
+
+    </style>
+       
+</head>
+<body>
+    <header>
+        <div id="cart"><h2>Cart</h2></div>
+    </header>
+    <div class="product">
+        <div class="box1 box">
+           <div class="img1" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFwn3Pqb3MPKPNNNogTDfatyX7LzwV_7z2tg&usqp=CAU" alt=""></div>
+           <div id="sentence">
+            <h5>Gentle Cleanse Face Foam</h5><br>
+            <h6>cleanse & Exfoliate-For Normal to dry Skin</h6><br>
+            <h3>RS.587</h3><br>
+
+            <button>- 1 +</button>
+            <div id="icon"><i class="fa-solid fa-trash-can-arrow-up"></i></div>
+           </div>
+        </div>
+        <div class="box2 box"> <div class="img2" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFwn3Pqb3MPKPNNNogTDfatyX7LzwV_7z2tg&usqp=CAU" alt=""></div>
+        <div id="sentence2">
+         <h5>Gentle Cleanse Face Foam</h5><br>
+         <h6>cleanse & Exfoliate-For Normal to dry Skin</h6><br>
+         <h3>RS.587</h3><br>
+         <button id="button2">- 1 +</button>
+
+
+        </div>
+        <div class="box3 box"><div class="img3" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFwn3Pqb3MPKPNNNogTDfatyX7LzwV_7z2tg&usqp=CAU" alt=""></div>
+        <div id="sentence3">
+         <h5>Gentle Cleanse Face Foam</h5><br>
+         <h6>cleanse & Exfoliate-For Normal to dry Skin</h6><br>
+         <h3>RS.587</h3><br>
+         <button id="button3">- 1 +</button>
+
+
+
+        </div>
+    </div>
+    
+</body>
+</html>
